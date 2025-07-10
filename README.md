@@ -84,14 +84,13 @@ Contains reusable helpers:
 
 3.Create a new notebook and %run ./full_pipeline to begin automated ingestion.
 
-📝 Requirements
+##📝 Requirements
 Databricks Community Edition
 
 Gmail App Password (for send_email())
 
-📧 Email Setup Instructions
+##📧 Email Setup Instructions
 Turn on 2FA on your Gmail account
-
 Create an App Password from Google Account > Security
 
 Use it inside send_email():
@@ -99,7 +98,7 @@ sender_email = "your@gmail.com"
 receiver_email = "you_or_team@gmail.com"
 password = "your_16_char_app_password"
 
-Future Improvements
+##Future Improvements
 Airflow/DAG-based scheduling
 Add Slack notifications
 Historical dashboard via Delta streaming
