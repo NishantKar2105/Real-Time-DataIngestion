@@ -99,9 +99,9 @@ Use it inside send_email():
 - password = "your_16_char_app_password"
 
 ## Future Improvements
-Airflow/DAG-based scheduling
-Add Slack notifications
-Historical dashboard via Delta streaming
+- Airflow/DAG-based scheduling
+- Add Slack notifications
+- Historical dashboard via Delta streaming
 
 🧠 Author
-Nishant Kar
+- Nishant Kar
