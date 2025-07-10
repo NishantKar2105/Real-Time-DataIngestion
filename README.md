@@ -94,11 +94,11 @@ Turn on 2FA on your Gmail account
 Create an App Password from Google Account > Security
 
 Use it inside send_email():
-sender_email = "your@gmail.com"
-receiver_email = "you_or_team@gmail.com"
-password = "your_16_char_app_password"
+- sender_email = "your@gmail.com"
+- receiver_email = "you_or_team@gmail.com"
+- password = "your_16_char_app_password"
 
-##Future Improvements
+## Future Improvements
 Airflow/DAG-based scheduling
 Add Slack notifications
 Historical dashboard via Delta streaming
