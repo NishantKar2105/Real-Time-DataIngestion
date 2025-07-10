@@ -75,35 +75,3 @@ def export_combined_html(df_recent,version_info,html_path=HTML_PATH):
 
 # COMMAND ----------
 
-"""# ✅ Generate new fake data (e.g., 5 rows)
-df_new = generate_fake_data(spark, num_rows=5)
-
-# Preview the generated data
-display(df_new)
-
-# COMMAND ----------
-
-# ✅ Append to existing Delta table
-append_to_delta_table(df_new)
-
-print("✅ Data appended successfully.")"""
-
-
-
-# COMMAND ----------
-
-
-"""# COMMAND ----------
-
-# ✅ Load and show the most recent 10 records
-df_recent = get_recent_records(spark, limit=10)
-display(df_recent)
-
-# COMMAND ----------
-
-# ✅ Track current Delta version
-version_info = get_latest_version_info(spark)
-print(f"✅ Latest Delta Version: {version_info['version']}")
-print(f"🕒 Timestamp: {version_info['timestamp']}")
-print(f"🔧 Operation: {version_info['operation']}")
-print(f"👤 User: {version_info['user']}")"""
