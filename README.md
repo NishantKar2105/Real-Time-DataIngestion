@@ -103,5 +103,8 @@ Use it inside send_email():
 - Add Slack notifications
 - Historical dashboard via Delta streaming
 
+## Screenshots
+<img width="1448" height="766" alt="image" src="https://github.com/user-attachments/assets/77d2c011-2909-4f73-92c7-c630ece590a6" />
+
 🧠 Author
 - Nishant Kar
